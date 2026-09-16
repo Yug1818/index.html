@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Secure Bank Portal</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <h1>Secure Bank Ltd.</h1>
+        <h2>JavaScript Banking Utilities</h2>
+
+        <div class="container">
+
+            <lable>Customer Name</lable>
+            <input type="text" id="Name">
+
+            <lable>Age</lable>
+            <input type="number" id="Number">
+
+            <lable>Monthly income ($)</lable>
+            <input type="number" id="income">
+
+            <lable>Loan Amount ($)</lable>
+            <input type="number" id="loan">
+
+            <lable>Interst Rate (%)</lable>
+            <input type="number" id="rate">
+
+            <lable>Loan Duration (years)</lable>
+            <input type="number" id="years">
+
+            <button onclick="checkEligibilty()">Loan Eligibilty</button>
+
+            <button onclick="calculateEMI()">Calculate Emi</button>
+
+            <button onclick="calculateInterst()">Simple Interst</button>
+
+            <button onclick="generateInterestTable()">Interst Table</button>
+
+            <button onclick="accountType()">Account Type</button>
+
+            <button onclick="showScope()" >Variable Scope</button>
+
+            <div id="output"></div>
+
+
+
+        </div>
+        <script src="script2.js"></script>
+    </body>
+</html>
