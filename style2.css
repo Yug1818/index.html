@@ -1,0 +1,33 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background: rgba(191, 99, 39, 0.698);
+    margin:40px;
+   
+}
+
+.container{
+    width:600px;
+    background: rgb(111, 170, 186);
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 50px grey;
+}
+input{
+    width:95%;
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+}
+button{
+    padding: 20px 20px;
+    margin: 5px;
+    cursor: pointer;
+   
+}
+#output{
+    margin-top: 20px;
+    padding: 20px;
+    background: #eef;
+    border-radius: 5px;
+}
